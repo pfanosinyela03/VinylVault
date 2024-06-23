@@ -1,0 +1,6 @@
+com.example.vinylvault_complete.test.app-annotation-experimental-1.4.0-0 C:\Users\RC_Student_lab\.gradle\caches\transforms-3\210d1892ed7894f9180b45fe9a142f57\transformed\annotation-experimental-1.4.0\res
+com.example.vinylvault_complete.test.app-core-1.5.0-1 C:\Users\RC_Student_lab\.gradle\caches\transforms-3\d0ce021a8824d9c30feffb56a1c5ced7\transformed\core-1.5.0\res
+com.example.vinylvault_complete.test.app-androidTest-2 C:\app\VinylVault_Complete\app\build\generated\res\resValues\androidTest\debug
+com.example.vinylvault_complete.test.app-mergeDebugAndroidTestResources-3 C:\app\VinylVault_Complete\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.vinylvault_complete.test.app-mergeDebugAndroidTestResources-4 C:\app\VinylVault_Complete\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.vinylvault_complete.test.app-merged_res-5 C:\app\VinylVault_Complete\app\build\intermediates\merged_res\debugAndroidTest

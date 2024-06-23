@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "176245555242",
+    "project_id": "vinylvault-complete",
+    "storage_bucket": "vinylvault-complete.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:176245555242:android:ae1be7d94474b9738a0353",
+        "android_client_info": {
+          "package_name": "com.example.vinylvault_complete"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpcYFIQ_JKj5d0tg6N8O2LUCgNVVI6VCo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

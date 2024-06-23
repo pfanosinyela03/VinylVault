@@ -1,0 +1,3 @@
+com.example.vinylvault_complete.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

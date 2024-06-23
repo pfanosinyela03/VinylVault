@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">VinylVault_Complete</string>
+    <string name="select_category_prompt">Select a category</string>
+    <string name="enter_vinyl_name_hint">Enter vinyl name</string>
+    <string name="add_vinyl_button">Add Vinyl</string>
+    <string name="enter_description_hint">Enter Artist name</string>
+    <string name="enter_date_of_purchase_hint">Enter date of release:</string>
+    <string name="choose_image_button">Choose Image</string>
+    <string name="vinyl_name_format">Vinyl Name: %s</string>
+    <string name="description_format">Artist: %s</string>
+    <string name="date_of_purchase_format">Release: %s</string>
+    <string name="divider">-----------------------------------</string>
+    <string name="select_category_hint" />
+
+
+</resources>

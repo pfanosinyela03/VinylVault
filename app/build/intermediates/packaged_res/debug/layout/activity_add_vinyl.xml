@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <!-- Category Spinner -->
+    <Spinner
+        android:id="@+id/categorySpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:padding="12dp"
+        android:textColor="@android:color/black"
+        android:popupBackground="@android:color/white"
+        android:prompt="@string/select_category_prompt" />
+
+
+
+    <!-- Vinyl Name EditText -->
+    <EditText
+        android:id="@+id/editTextVinylName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/categorySpinner"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/transparent"
+        android:hint="@string/enter_vinyl_name_hint"
+        android:padding="12dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/darker_gray"
+        android:textSize="18sp" />
+
+    <!-- Description EditText -->
+    <EditText
+        android:id="@+id/editTextDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextVinylName"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/transparent"
+        android:hint="@string/enter_description_hint"
+        android:textColorHint="@android:color/darker_gray"
+        android:padding="12dp"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <!-- Date of Purchase EditText -->
+    <EditText
+        android:id="@+id/editTextDateOfPurchase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextDescription"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/transparent"
+        android:hint="@string/enter_date_of_purchase_hint"
+        android:textColorHint="@android:color/darker_gray"
+        android:padding="12dp"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <!-- Choose Image Button -->
+    <Button
+        android:id="@+id/chooseImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="63dp"
+        android:layout_below="@id/editTextDateOfPurchase"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#1565C0"
+        android:text="@string/choose_image_button"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!-- Album Art ImageView -->
+    <ImageView
+        android:id="@+id/imageViewAlbumArt"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/chooseImageButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:background="@android:color/white"
+        android:scaleType="centerCrop"
+        android:src="@drawable/baseline_add_photo_alternate_24" />
+
+    <!-- Add Vinyl Button -->
+    <Button
+        android:id="@+id/addVinylButton"
+        android:layout_width="wrap_content"
+        android:layout_height="59dp"
+        android:layout_below="@id/imageViewAlbumArt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#2E7D32"
+        android:text="@string/add_vinyl_button"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
